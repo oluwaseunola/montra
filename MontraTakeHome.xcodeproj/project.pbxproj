@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2985134E2A99509E00B923CD /* MontraTakeHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2985134D2A99509E00B923CD /* MontraTakeHomeApp.swift */; };
+		298513522A9950A000B923CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298513512A9950A000B923CD /* Assets.xcassets */; };
+		298513552A9950A000B923CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298513542A9950A000B923CD /* Preview Assets.xcassets */; };
+		298513622A9961E600B923CD /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298513612A9961E600B923CD /* ContainerView.swift */; };
+		298513682A99643200B923CD /* ContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298513672A99643200B923CD /* ContainerViewModel.swift */; };
+		2985136C2A9A231D00B923CD /* VideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2985136B2A9A231D00B923CD /* VideoPreviewView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2985134A2A99509E00B923CD /* MontraTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MontraTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2985134D2A99509E00B923CD /* MontraTakeHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MontraTakeHomeApp.swift; path = "../New Group/MontraTakeHomeApp.swift"; sourceTree = "<group>"; };
+		298513512A9950A000B923CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		298513542A9950A000B923CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		298513562A9950A000B923CD /* MontraTakeHome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MontraTakeHome.entitlements; sourceTree = "<group>"; };
+		298513612A9961E600B923CD /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		298513672A99643200B923CD /* ContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewModel.swift; sourceTree = "<group>"; };
+		298513692A99695100B923CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2985136B2A9A231D00B923CD /* VideoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		298513472A99509E00B923CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		298513412A99509E00B923CD = {
+			isa = PBXGroup;
+			children = (
+				2985134C2A99509E00B923CD /* MontraTakeHome */,
+				2985134B2A99509E00B923CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2985134B2A99509E00B923CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2985134A2A99509E00B923CD /* MontraTakeHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2985134C2A99509E00B923CD /* MontraTakeHome */ = {
+			isa = PBXGroup;
+			children = (
+				298513692A99695100B923CD /* Info.plist */,
+				298513602A9961BD00B923CD /* App */,
+				2985135F2A9961AF00B923CD /* Resources */,
+				2985135C2A99617A00B923CD /* Models */,
+				2985135D2A99618600B923CD /* Views */,
+				2985135E2A99618E00B923CD /* ViewModels */,
+				298513512A9950A000B923CD /* Assets.xcassets */,
+				298513562A9950A000B923CD /* MontraTakeHome.entitlements */,
+				298513532A9950A000B923CD /* Preview Content */,
+			);
+			path = MontraTakeHome;
+			sourceTree = "<group>";
+		};
+		298513532A9950A000B923CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				298513542A9950A000B923CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2985135C2A99617A00B923CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2985135D2A99618600B923CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2985136A2A9A230500B923CD /* VideoPreviewView */,
+				298513632A99626900B923CD /* ContainerView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2985135E2A99618E00B923CD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				298513672A99643200B923CD /* ContainerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2985135F2A9961AF00B923CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		298513602A9961BD00B923CD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2985134D2A99509E00B923CD /* MontraTakeHomeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		298513632A99626900B923CD /* ContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				298513612A9961E600B923CD /* ContainerView.swift */,
+			);
+			path = ContainerView;
+			sourceTree = "<group>";
+		};
+		2985136A2A9A230500B923CD /* VideoPreviewView */ = {
+			isa = PBXGroup;
+			children = (
+				2985136B2A9A231D00B923CD /* VideoPreviewView.swift */,
+			);
+			path = VideoPreviewView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		298513492A99509E00B923CD /* MontraTakeHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298513592A9950A000B923CD /* Build configuration list for PBXNativeTarget "MontraTakeHome" */;
+			buildPhases = (
+				298513462A99509E00B923CD /* Sources */,
+				298513472A99509E00B923CD /* Frameworks */,
+				298513482A99509E00B923CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MontraTakeHome;
+			packageProductDependencies = (
+			);
+			productName = MontraTakeHome;
+			productReference = 2985134A2A99509E00B923CD /* MontraTakeHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		298513422A99509E00B923CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					298513492A99509E00B923CD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 298513452A99509E00B923CD /* Build configuration list for PBXProject "MontraTakeHome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 298513412A99509E00B923CD;
+			packageReferences = (
+				29F025C32A9C323400061BE7 /* XCRemoteSwiftPackageReference "FFmpeg-iOS" */,
+				29F025C82A9C33F300061BE7 /* XCRemoteSwiftPackageReference "SwiftFFmpeg" */,
+			);
+			productRefGroup = 2985134B2A99509E00B923CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				298513492A99509E00B923CD /* MontraTakeHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		298513482A99509E00B923CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298513552A9950A000B923CD /* Preview Assets.xcassets in Resources */,
+				298513522A9950A000B923CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		298513462A99509E00B923CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2985134E2A99509E00B923CD /* MontraTakeHomeApp.swift in Sources */,
+				2985136C2A9A231D00B923CD /* VideoPreviewView.swift in Sources */,
+				298513622A9961E600B923CD /* ContainerView.swift in Sources */,
+				298513682A99643200B923CD /* ContainerViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		298513572A9950A000B923CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		298513582A9950A000B923CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2985135A2A9950A000B923CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MontraTakeHome/MontraTakeHome.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MontraTakeHome/Preview Content\"";
+				DEVELOPMENT_TEAM = QTC9TXRFDC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MontraTakeHome/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to your video camera";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Please allow access to your documents folder";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow access to your mic";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.llamastudios.MontraTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2985135B2A9950A000B923CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MontraTakeHome/MontraTakeHome.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MontraTakeHome/Preview Content\"";
+				DEVELOPMENT_TEAM = QTC9TXRFDC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = /opt/homebrew/Cellar/ffmpeg/6.0_1;
+				INFOPLIST_FILE = MontraTakeHome/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to your video camera";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Please allow access to your documents folder";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow access to your mic";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.llamastudios.MontraTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		298513452A99509E00B923CD /* Build configuration list for PBXProject "MontraTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298513572A9950A000B923CD /* Debug */,
+				298513582A9950A000B923CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		298513592A9950A000B923CD /* Build configuration list for PBXNativeTarget "MontraTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2985135A2A9950A000B923CD /* Debug */,
+				2985135B2A9950A000B923CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29F025C32A9C323400061BE7 /* XCRemoteSwiftPackageReference "FFmpeg-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kewlbear/FFmpeg-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+		29F025C82A9C33F300061BE7 /* XCRemoteSwiftPackageReference "SwiftFFmpeg" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sunlubo/SwiftFFmpeg.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 298513422A99509E00B923CD /* Project object */;
+}
